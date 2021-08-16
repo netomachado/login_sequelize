@@ -4,7 +4,10 @@ module.exports = {
       password: '',
       database: "iotusers",
       host: "localhost",
-      dialect: "mysql"
+      dialect: "mysql",
+      define: {
+        timestamps: false,
+       }
     },
     test: {
       username: "root",
@@ -20,4 +23,4 @@ module.exports = {
       host: "localhost",
       dialect: "mysql"
     }
-  }
+  };
