@@ -22,14 +22,14 @@ logar: async(req, res)=> {
      const usuario = await User.findOne({
          where: { email }}
      );
-     console.log(usuario);
+     
 
      if (!usuario){
          return res.redirect('/cadastro')
      };
 
      const senhaValida = bcrypt.compareSync( senha, usuario.dataValues.senha_crypto);
-     console.log(senhaValida);
+    
 
      if(!senhaValida){
          return res.redirect('/login?error=dados_errados')
