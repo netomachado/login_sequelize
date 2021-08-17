@@ -7,7 +7,7 @@ body {
   
   button {
     margin: 10px;
-    width: 180px;
+    width: 100px;
     border-radius: 20px;
     background-color: gray;
     border: 1px solid white;
@@ -16,17 +16,7 @@ body {
     font-size: 18px;
   }
   
-  .form {
-    border: white solid 2px;
-    margin: 20px auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-  }
-  
+    
   a {
     color: #00B7FF;
   }
@@ -39,9 +29,9 @@ body {
     margin: 20px 60px;
     background-color: rgb(90, 77, 77);
     color: white;
-    max-width: 300px;
-    width: 100%;
+    width: 200px;
     border: blue solid 3px;
+    height: 300px;
   }
   
   header {
@@ -49,7 +39,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(163, 161, 161, 0);
+    box-shadow: 0px 10px 13px -7px #aca7a7, 5px 5px 15px 5px rgba(163, 161, 161, 0);
   }
   
   .logo {
@@ -57,11 +47,6 @@ body {
     width: auto;
   }
   
-  
-  iframe {
-    height: 360px;
-    width: 640px;
-  }
   
   main {
     display: flex;
@@ -75,3 +60,23 @@ body {
     margin: 20px 20px;
   }
   
+  .imagem_dispositivo {
+    height: 150px;
+    width: 150px;
+    
+  }
+
+  .espaco_imagem {
+    padding: 10px 20px;
+    justify-content: center;
+  }
+
+  .preco{
+    margin: 0px;
+    padding-left: 10px;
+  }
+
+  .cabecalho{
+    font-size: 20px;
+    font-weight: bold;
+  }
