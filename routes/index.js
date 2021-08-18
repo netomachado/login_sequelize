@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const UserController = require("../controllers/UserController");
 const verificarUsuarioLogado = require('../middlewares/verificarUsuarioLogado');
-const db = require("../models/index");
+const db = require("../database/models");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
